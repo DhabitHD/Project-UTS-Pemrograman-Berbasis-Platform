@@ -3,9 +3,9 @@
 Ini adalah proyek website portofolio pribadi yang dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah Pemrograman Berbasis Platform. Website ini dirancang dengan estetika unik yang terinspirasi dari TUI (Terminal User Interface), memberikan nuansa retro dan teknis.
 
 ## Tampilan Proyek
-![Tampilan Homepage]()
-![Tampilan About]()
-![Tampilan Contact]()
+![Tampilan Homepage](https://github.com/DhabitHD/Project-UTS-Pemrograman-Berbasis-Platform/blob/main/Screenshot1.png?raw=true)
+![Tampilan About](https://github.com/DhabitHD/Project-UTS-Pemrograman-Berbasis-Platform/blob/main/Screenshot2.png?raw=true)
+![Tampilan Contact](https://github.com/DhabitHD/Project-UTS-Pemrograman-Berbasis-Platform/blob/main/Screenshot3.png?raw=true)
 
 ## Fitur Utama
 - Desain TUI/Terminal: Tampilan antarmuka yang konsisten di seluruh halaman, menyerupai aplikasi di dalam terminal.
