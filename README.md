@@ -1,6 +1,10 @@
 # Portofolio Pribadi - TUI
 
+Dhabit Hadi Dwitama TI 2024 B 24051204064
+
 Ini adalah proyek website portofolio pribadi yang dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah Pemrograman Berbasis Platform. Website ini dirancang dengan estetika unik yang terinspirasi dari TUI (Terminal User Interface), memberikan nuansa retro dan teknis.
+
+Link Youtube
 
 ## Tampilan Proyek
 ![Tampilan Homepage](https://github.com/DhabitHD/Project-UTS-Pemrograman-Berbasis-Platform/blob/main/Screenshot1.png?raw=true)
