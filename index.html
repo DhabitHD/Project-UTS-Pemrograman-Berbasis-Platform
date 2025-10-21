@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhabit Hadi Dwitama | Home</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts (VT323) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Tailwind Customization -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'bg-color': '#1d2021',
+                        'text-color': '#d5c4a1',
+                        'primary-color': '#83a598',
+                        'yellow-accent': '#fabd2f',
+                        'border-color': '#504945',
+                    },
+                    fontFamily: {
+                        'tui': ['VT323', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-tui text-text-color p-4 flex items-center justify-center min-h-screen">
+
+    <div class="tui-window w-full max-w-4xl mx-auto">
+        <!-- Header -->
+        <div class="tui-header flex items-center justify-between">
+            <span>DhabitHadiDwitama:~</span>
+            <span>~/</span>
+        </div>
+        
+        <!-- Body -->
+        <div class="p-6 md:p-8 space-y-8">
+            <!-- ASCII Art Panel -->
+            <div class="tui-panel p-6 pt-2">
+                <span class="tui-title px-2 text-yellow-accent"> greeting.txt </span>
+                <pre class="whitespace-pre-wrap text-center text-primary-color text-sm md:text-base">
+                 * +
+           '              |
+   ()      .-.,="``"=.    - o -
+         '=/_       \     |
+ *   |  '=._    |
+                \      `=./`,        '
+            .   '=.__.=' `='      *
+   +                         +
+        O      * '       .
+                </pre>
+            </div>
+
+            <!-- whoami panel -->
+            <div class="tui-panel p-6 pt-2">
+                <span class="tui-title px-2 text-yellow-accent"> whoami </span>
+                <p>Selamat datang di portofolio saya. Saya Dhabit Hadi Dwitama, seorang mahasiswa Teknik Informatika dengan minat pada jaringan komputer dan pengembangan perangkat lunak. Silakan lihat-lihat halaman lain untuk informasi lebih lanjut.</p>
+            </div>
+        </div>
+        
+        <!-- Footer / Menu -->
+        <div class="tui-footer text-center">
+            [ <a href="about.html" class="hover:bg-primary-color hover:text-bg-color">About</a> ]
+            [ <a href="contact.html" class="hover:bg-primary-color hover:text-bg-color">Contact</a> ]
+        </div>
+    </div>
+</body>
+</html>

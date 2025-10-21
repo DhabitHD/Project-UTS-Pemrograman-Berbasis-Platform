@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhabit Hadi Dwitama | Contact</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts (VT323) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Tailwind Customization -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'bg-color': '#1d2021',
+                        'text-color': '#d5c4a1',
+                        'primary-color': '#83a598',
+                        'yellow-accent': '#fabd2f',
+                        'border-color': '#504945',
+                        'error-color': '#fb4934',
+                        'green-accent': '#b8bb26',
+                    },
+                    fontFamily: {
+                        'tui': ['VT323', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-tui text-text-color p-4 flex items-center justify-center min-h-screen">
+
+    <div class="tui-window w-full max-w-2xl mx-auto">
+        <!-- Header -->
+        <div class="tui-header flex items-center justify-between">
+            <span>contact-info --all</span>
+            <span>~/contact</span>
+        </div>
+        
+        <!-- Body -->
+        <div class="p-6 md:p-8 space-y-8">
+            <!-- Panel Info Kontak -->
+            <div class="tui-panel p-6 pt-2">
+                <span class="tui-title px-2 text-yellow-accent"> Contact_Details </span>
+                <div class="space-y-2">
+                   <p><span class="text-primary-color w-24 inline-block">EMAIL</span>: cawcawcomrade@proton.me</p>
+                   <p><span class="text-primary-color w-24 inline-block">LOKASI</span>: Surabaya, Jawa Timur</p>
+                </div>
+            </div>
+
+            <!-- Panel Form -->
+            <div class="tui-panel p-6 pt-2">
+                <span class="tui-title px-2 text-yellow-accent"> new-message --send </span>
+                <form id="contact-form" novalidate class="space-y-6">
+                    <div class="flex items-center gap-2">
+                        <label for="name" class="text-primary-color">from:</label>
+                        <input type="text" id="name" name="name" class="tui-input flex-grow" required>
+                    </div>
+                    <p class="error-message text-error-color text-xs -mt-4 ml-14 hidden">Error: Field cannot be empty.</p>
+                    
+                    <div class="flex items-center gap-2">
+                        <label for="email" class="text-primary-color">email:</label>
+                        <input type="email" id="email" name="email" class="tui-input flex-grow" required>
+                    </div>
+                     <p class="error-message text-error-color text-xs -mt-4 ml-14 hidden">Error: Invalid email format.</p>
+
+                    <div>
+                        <label for="message" class="text-primary-color">message:</label>
+                        <textarea id="message" name="message" rows="4" class="tui-input w-full mt-2 !border" required></textarea>
+                        <p class="error-message text-error-color text-xs mt-1 hidden">Error: Field cannot be empty.</p>
+                    </div>
+
+                    <div class="pt-4 flex justify-center">
+                        <button type="submit" class="tui-button">
+                            &lt; SEND &gt;
+                        </button>
+                    </div>
+                    <p id="success-message" class="text-green-accent text-center hidden">Success! Message sent.</p>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Footer / Menu -->
+        <div class="tui-footer text-center">
+             [ <a href="index.html" class="hover:bg-primary-color hover:text-bg-color">Home</a> ]
+             [ <a href="about.html" class="hover:bg-primary-color hover:text-bg-color">About</a> ]
+        </div>
+    </div>
+    
+    <!-- Custom JS File -->
+    <script src="script.js"></script>
+</body>
+</html>

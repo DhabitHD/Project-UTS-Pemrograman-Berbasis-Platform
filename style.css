@@ -1,0 +1,72 @@
+/* TUI Stylesheet (Native CSS Buatan Sendiri) */
+
+body { 
+    background-color: #1d2021;
+    background-image: radial-gradient(rgba(213, 196, 161, 0.1) 1px, transparent 1px);
+    background-size: 10px 10px;
+}
+
+.tui-window {
+    font-family: 'VT323', monospace;
+    border: 1px solid #504945;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: rgba(29, 32, 33, 0.8);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.tui-header, .tui-footer {
+    background-color: rgba(60, 56, 54, 0.75);
+    padding: 0.5rem 1rem;
+    color: #ebdbb2;
+    border-bottom: 1px solid #504945;
+}
+
+.tui-footer { 
+    border-top: 1px solid #504945; 
+    border-bottom: none; 
+}
+
+.tui-panel {
+    border: 1px solid #504945;
+}
+
+.tui-title {
+    background-color: rgba(29, 32, 33, 0.8);
+    display: inline-block;
+    position: relative;
+    top: -1.4em;
+    margin-left: 1rem;
+}
+
+.tui-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px dashed #504945;
+    width: 100%;
+    color: #d5c4a1;
+    font-family: 'VT323', monospace;
+}
+
+.tui-input:focus {
+    outline: none;
+    border-bottom: 1px solid #83a598;
+}
+
+.tui-input.error {
+    border-bottom: 1px solid #fb4934;
+}
+
+.tui-button {
+    border: 1px solid #504945;
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(60, 56, 54, 0.75);
+    transition: all 0.2s;
+}
+
+.tui-button:hover {
+    background-color: #83a598;
+    color: #1d2021;
+    border-color: #83a598;
+}
